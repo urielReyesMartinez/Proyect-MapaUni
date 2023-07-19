@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="METRO" size="2.000000 1.228814" />
+    <ImageTarget name="logoStudio" size="2.000000 1.413911" />
+    <ImageTarget name="logo" size="10.000000 7.069555" />
+    <ImageTarget name="EJ03_UrielReyesMArtinez" size="10.000000 7.500000" />
+    <ImageTarget name="EJ01_UrielReyesMartinez" size="10.000000 7.500000" />
+  </Tracking>
+</QCARConfig>

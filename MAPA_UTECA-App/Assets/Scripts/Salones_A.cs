@@ -11,6 +11,10 @@ public class Salones_A : MonoBehaviour
 
     public Color Room1A;
 
+    public GameObject piso2;
+    public GameObject piso4;
+    public Dropdown drop;
+
     public void Awake()
     {
         if (door == null)
@@ -41,5 +45,17 @@ public class Salones_A : MonoBehaviour
             Rooms[1].material.color = Color.green;
         }
 
+    }
+
+    public void dropdown(int index)
+    {
+        if (index==0)
+        {
+            piso2.SetActive(true);
+        }
+        else
+        {
+            piso4.SetActive(true);
+        }
     }
 }

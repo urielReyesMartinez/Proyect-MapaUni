@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/PROYECTO.unity
     guid: 3fb987e511ef52f4684a96a741cb6f74
   - enabled: 1
+    path: Assets/Scenes/Escena 2.unity
+    guid: b7dd2179ef1c32f45b9d813788bc0f43
+  - enabled: 1
     path: Assets/Scenes/Escena 4.unity
     guid: 6bdce89659816455b9f906fc62d19910
   m_configObjects: {}

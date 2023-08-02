@@ -7,6 +7,8 @@ public class irEscenas : MonoBehaviour
     [SerializeField] private GameObject botonEscena;
     [SerializeField] private GameObject MenuEscenas;
 
+    [SerializeField] private GameObject PisosON;
+    [SerializeField] private GameObject Pisosmost;
     public void Mostrar()
     {
         botonEscena.SetActive(true);
@@ -19,5 +21,16 @@ public class irEscenas : MonoBehaviour
         MenuEscenas.SetActive(false);
     }
 
+    public void BotPisos()
+    {
+        PisosON.SetActive(true);
+        Pisosmost.SetActive(true);
+        MenuEscenas.SetActive(false);
+    }
+    public void Escerar()
+    {
+        PisosON.SetActive(true);
+        Pisosmost.SetActive(false);
+    }
 
 }

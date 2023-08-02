@@ -9,7 +9,6 @@ using UnityEngine.SceneManagement;
 public class Instructivo : MonoBehaviour
 {
     public GameObject instructivo;
-    //public GameObject Edifcio;
 
     private void Update()
     {

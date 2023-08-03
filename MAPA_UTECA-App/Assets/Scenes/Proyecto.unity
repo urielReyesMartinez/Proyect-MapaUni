@@ -1731,7 +1731,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1638961803}
         m_TargetAssemblyTypeName: Escenas, Assembly-CSharp
         m_MethodName: CambioEscena4
         m_Mode: 1
@@ -3773,7 +3773,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1638961803}
         m_TargetAssemblyTypeName: Escenas, Assembly-CSharp
         m_MethodName: CambioEscena2
         m_Mode: 1
@@ -4808,6 +4808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1638961802}
   - component: {fileID: 1638961801}
+  - component: {fileID: 1638961803}
   m_Layer: 0
   m_Name: Build_Boton
   m_TagString: Untagged
@@ -4851,6 +4852,18 @@ RectTransform:
   m_AnchoredPosition: {x: 3.153147, y: 0.70358515}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1638961803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638961800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b7e0470e65d8645b789654985aa2b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1649433963
 GameObject:
   m_ObjectHideFlags: 0
